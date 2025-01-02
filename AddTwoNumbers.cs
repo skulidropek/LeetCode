@@ -3,20 +3,20 @@ using System.Numerics;
 
 namespace LeetCode
 {
-    public class ListNode
+    public class AddTwoNumbersSolution
     {
-        public int val;
-        public ListNode next;
-
-        public ListNode(int val = 0, ListNode next = null)
+        public class ListNode
         {
-            this.val = val;
-            this.next = next;
-        }
-    }
+            public int val;
+            public ListNode next;
 
-    public class AddTwoNumbersTast
-    {
+            public ListNode(int val = 0, ListNode next = null)
+            {
+                this.val = val;
+                this.next = next;
+            }
+        }
+
         public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
             var value = GetNumber(l1) + GetNumber(l2);
