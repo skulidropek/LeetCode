@@ -3,6 +3,6 @@ using Newtonsoft.Json;
 using System.Numerics;
 using System.Text.Json.Serialization;
 
-TwoSumSolution twoSumSolution = new TwoSumSolution();
+DailyTemperaturesSolution solution = new DailyTemperaturesSolution();
 
-Console.WriteLine(JsonConvert.SerializeObject(twoSumSolution.TwoSum([-3, 4, 3, 90], 0)) + " == [0,2]");
+Console.WriteLine(JsonConvert.SerializeObject(solution.DailyTemperatures([10, 10, 10, 10, 11])));
