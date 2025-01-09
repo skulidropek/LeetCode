@@ -3,6 +3,6 @@ using Newtonsoft.Json;
 using System.Numerics;
 using System.Text.Json.Serialization;
 
-DailyTemperaturesSolution solution = new DailyTemperaturesSolution();
+UniquePathsSolution solution = new UniquePathsSolution();
 
-Console.WriteLine(JsonConvert.SerializeObject(solution.DailyTemperatures([10, 10, 10, 10, 11])));
+Console.WriteLine(solution.UniquePaths(4,5) + " == 35");
